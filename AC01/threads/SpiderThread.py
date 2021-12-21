@@ -26,7 +26,7 @@ class SpiderThread(threading.Thread):
             except queue.Empty:
                 pass
             else:
-                if self.spider == -1:
+                if isinstance(self.spider, BaseSpider) == False:
                     continue
 
                 # 执行
