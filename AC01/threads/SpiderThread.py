@@ -14,7 +14,6 @@ class SpiderThread(threading.Thread):
         # 爬虫对象
         self.spider: 'BaseSpider' = None
 
-   
 
     def run(self) -> None:
         '''运行'''
