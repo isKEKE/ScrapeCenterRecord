@@ -2,7 +2,7 @@
 import threading
 import queue
 from items.ThreadItem import ThreadItem
-
+from spider.BaseSpider import BaseSpider
 
 class SpiderThread(threading.Thread):
     '''爬虫线程'''
