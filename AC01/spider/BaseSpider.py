@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 import requests
 from fake_useragent import UserAgent
-from ProxyIPSpider import USER_AGENT_PATH
+from config import USER_AGENT_PATH
 
 
 class BaseSpider(object):
